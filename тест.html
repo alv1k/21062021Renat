@@ -1,0 +1,42 @@
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<div class = 'question1' style ='width: 500px; height: 500px; background-color:#8bd6d0;'> 
+		<img src='big_00982_df-04192_a4.jpg' style = 'width: 300px;'>
+		<h1 style = "width:350px; background-color:#12c745;">мой любимый фильм</h1>
+		<h1 style = "width:300px; background-color:#cf7215;" class = 'answer1' >Star Wars:trilogy</h1>
+		<h1 style = 'width:100px; background-color:#cf7215;' class = 'answer2' >Dune</h1>
+		<h1 style = 'width:300px; background-color:#cf7215;' class = "answer3">The Green Mile</h1>
+		
+</div>
+<div class = 'question2' style ='width: 500px; background-color:#98bceb; display: none;'>
+		<img src='m1000x1000.png' style = 'width:  300px;'>
+		<h1 style = "width:350px; background-color:#12c745;" >мой любимый трек</h1>
+		<div class = 'answer1' style = 'width:500px; margin-top:60px; font-size:50px; background-color:#cf7215;'> "а я для вас никто" <iframe frameborder="0" style="border:none;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/117115/11016">Слушайте <a href='https://music.yandex.ru/album/11016/track/117115'>А для вас я никто</a> — <a href='https://music.yandex.ru/artist/42516'>Бутырка</a> на Яндекс.Музыке</iframe></div>
+			<div class = 'answer2' style = 'width:500px; margin-top:60px; font-size:50px; background-color:#cf7215;'> СИМПл-ДИМПЛ <iframe frameborder="0" style="border:none;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/84466718/16014482">Слушайте <a href='https://music.yandex.ru/album/16014482/track/84466718'>Симпл димпл</a> — <a href='https://music.yandex.ru/artist/6959904'>suramura</a> на Яндекс.Музыке</iframe></div>
+				<div class = 'answer3' style = 'width:500px; margin-top:60px; font-size:50px; background-color:#cf7215;'> My Own Summer(shove it) <iframe frameborder="0" style="border:none;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/75206348/13193498">Слушайте <a href='https://music.yandex.ru/album/13193498/track/75206348'>My Own Summer (Shove It)</a> — <a href='https://music.yandex.ru/artist/4291905'>Earth Groans</a> на Яндекс.Музыке</iframe></div>
+</div> 
+<div class ='question3' style ='width: 600px; height: 1420px; background-color:#cbeb98; display: none;'>
+		<img src='maxresdefault.jpg' style = 'width:  300px;'>
+		<h1 style = "width:350px; background-color:#12c745;">моя любимая iгра</h1>
+		<h1 class = 'answer1' style = "width:350px; background-color:#12c745;" >plants vs zombies</h1>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/JWGQzs0zAgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<h1 class = 'answer2' style = "width:350px; background-color:#12c745;" >warcraft 3</h1>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/B28pJBDxBjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<h1 class = 'answer3' style = "width:350px; background-color:#12c745;" >Metal Slug:trilogy</h1>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/-bYFAjZpjwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div> 
+</div>
+		<script>
+			find ('question1 answer1').click('alert','не мой самый любимый фильм')
+			find ('question1 answer2').click('alert','Дюны - классный фильм, но не любимый')
+			find ('question1 answer3').click('show','question2','Зелёная Миля - замечательный фильм')
+		</script>
+		<script>
+			find ('question2 answer1').click('alert','не-а')
+			find ('question2 answer2').click('show','question3','не-а')
+			find ('question2 answer3').click('show','question3','ДА')
+		</script>
+		<script>
+			find ('question3 answer1').click('show','question1','ZOMBIeS ArE COMiNG')
+			find ('question3 answer2').click('alert','НужНО БОЛЬШЕ ЗОЛОтА')
+			find ('question3 answer3').click('alert','...')
+		</script>
